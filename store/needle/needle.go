@@ -1,8 +1,8 @@
 package needle
 
 import (
-	"bfs/libs/encoding/binary"
-	"bfs/libs/errors"
+	"github.com/AlexanderChiuluvB/bfs/libs/encoding/binary"
+	"github.com/AlexanderChiuluvB/bfs/libs/errors"
 	"bufio"
 	"bytes"
 	"fmt"

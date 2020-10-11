@@ -1,7 +1,7 @@
 package main
 
 import (
-	"bfs/libs/meta"
+	"github.com/AlexanderChiuluvB/bfs/libs/meta"
 	"encoding/json"
 	log "github.com/golang/glog"
 	"net/http"

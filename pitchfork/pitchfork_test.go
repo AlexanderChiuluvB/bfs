@@ -1,21 +1,20 @@
 package main
 
 import (
-	"bfs/pitchfork/conf"
-	myzk "bfs/store/zk"
+	"github.com/AlexanderChiuluvB/bfs/pitchfork/conf"
+	myzk "github.com/AlexanderChiuluvB/bfs/store/zk"
 	"fmt"
 	"testing"
-	"time"
 )
 
 func TestPitchfork(t *testing.T) {
 
 	var (
-		config        *Config
-		zk            *Zookeeper
+		config        *conf.Config
+		zk            *myzk.Zookeeper
 		p             *Pitchfork
 		storelist     StoreList
-		store         *Store
+		store         *conf.Store
 		pitchforklist PitchforkList
 		err           error
 	)
@@ -25,12 +24,12 @@ func TestPitchfork(t *testing.T) {
 		return
 	}
 
-	if zk, err = myzk.NewZookeeper([]string{"localhost:2181"}, time.Second*1); err != nil {
+	if zk, err = myzk.NewZookeeper(); err != nil {
 		t.Errorf("NewZookeeper() error(%v)", err)
 		t.FailNow()
 	}
 
-	p = NewPitchfork(zk, config)
+	p, err = NewPitchfork(config)
 	if err = p.Register(); err != nil {
 		t.Errorf("pitchfork Register() failed, Quit now")
 		t.FailNow()

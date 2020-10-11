@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"bfs/libs/gohbase/conf"
-	"bfs/libs/gohbase/hrpc"
+	"github.com/AlexanderChiuluvB/bfs/libs/gohbase/conf"
+	"github.com/AlexanderChiuluvB/bfs/libs/gohbase/hrpc"
 
 	log "github.com/golang/glog"
 )

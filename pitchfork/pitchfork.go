@@ -1,11 +1,11 @@
 package main
 
 import (
-	"bfs/libs/errors"
-	"bfs/libs/meta"
-	"bfs/pitchfork/conf"
-	myzk "bfs/pitchfork/zk"
 	"encoding/json"
+	"github.com/AlexanderChiuluvB/bfs/libs/errors"
+	"github.com/AlexanderChiuluvB/bfs/libs/meta"
+	"github.com/AlexanderChiuluvB/bfs/pitchfork/conf"
+	myzk "github.com/AlexanderChiuluvB/bfs/pitchfork/zk"
 	"sort"
 	"time"
 

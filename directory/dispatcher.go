@@ -1,8 +1,8 @@
 package main
 
 import (
-	"bfs/libs/errors"
-	"bfs/libs/meta"
+	"github.com/AlexanderChiuluvB/bfs/libs/errors"
+	"github.com/AlexanderChiuluvB/bfs/libs/meta"
 	"math/rand"
 	"sync"
 	"time"

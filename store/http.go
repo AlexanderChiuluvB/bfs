@@ -1,9 +1,9 @@
 package main
 
 import (
-	"bfs/libs/errors"
-	"bfs/libs/stat"
-	"bfs/store/conf"
+	"github.com/AlexanderChiuluvB/bfs/libs/errors"
+	"github.com/AlexanderChiuluvB/bfs/libs/stat"
+	"github.com/AlexanderChiuluvB/bfs/store/conf"
 	"encoding/json"
 	log "github.com/golang/glog"
 	"golang.org/x/time/rate"

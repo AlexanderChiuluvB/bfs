@@ -11,8 +11,8 @@ import (
 	"reflect"
 	"testing"
 
-	"bfs/libs/gohbase/filter"
-	"bfs/libs/gohbase/regioninfo"
+	"github.com/AlexanderChiuluvB/bfs/libs/gohbase/filter"
+	"github.com/AlexanderChiuluvB/bfs/libs/gohbase/regioninfo"
 )
 
 func TestNewGet(t *testing.T) {

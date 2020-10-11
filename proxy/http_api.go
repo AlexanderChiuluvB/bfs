@@ -1,11 +1,11 @@
 package main
 
 import (
-	"bfs/libs/errors"
-	"bfs/proxy/auth"
-	"bfs/proxy/bfs"
-	ibucket "bfs/proxy/bucket"
-	"bfs/proxy/conf"
+	"github.com/AlexanderChiuluvB/bfs/libs/errors"
+	"github.com/AlexanderChiuluvB/bfs/proxy/auth"
+	"github.com/AlexanderChiuluvB/bfs/proxy/bfs"
+	ibucket "github.com/AlexanderChiuluvB/bfs/proxy/bucket"
+	"github.com/AlexanderChiuluvB/bfs/proxy/conf"
 	"crypto/sha1"
 	"encoding/hex"
 	"encoding/json"

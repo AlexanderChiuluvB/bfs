@@ -8,7 +8,7 @@ package hrpc
 import (
 	"errors"
 
-	"bfs/libs/gohbase/filter"
+	"github.com/AlexanderChiuluvB/bfs/libs/gohbase/filter"
 )
 
 // tableOp represents an administrative operation on a table.

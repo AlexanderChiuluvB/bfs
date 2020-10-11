@@ -1,10 +1,10 @@
 package hbase
 
 import (
-	"bfs/directory/conf"
-	"bfs/libs/errors"
-	"bfs/libs/meta"
-	xtime "bfs/libs/time"
+	"github.com/AlexanderChiuluvB/bfs/directory/conf"
+	"github.com/AlexanderChiuluvB/bfs/libs/errors"
+	"github.com/AlexanderChiuluvB/bfs/libs/meta"
+	xtime "github.com/AlexanderChiuluvB/bfs/libs/time"
 	"fmt"
 	"testing"
 	"time"

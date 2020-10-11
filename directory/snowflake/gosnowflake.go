@@ -27,7 +27,7 @@ import (
 	"sync"
 	"time"
 
-	myrpc "github.com/Terry-Mao/gosnowflake/rpc"
+	myrpc "github.com/Terry-mao/gosnowflake/rpc"
 	log "github.com/golang/glog"
 	"github.com/samuel/go-zookeeper/zk"
 )

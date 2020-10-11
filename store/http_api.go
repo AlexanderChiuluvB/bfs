@@ -1,9 +1,9 @@
 package main
 
 import (
-	"bfs/libs/errors"
-	"bfs/store/needle"
-	"bfs/store/volume"
+	"github.com/AlexanderChiuluvB/bfs/libs/errors"
+	"github.com/AlexanderChiuluvB/bfs/store/needle"
+	"github.com/AlexanderChiuluvB/bfs/store/volume"
 	log "github.com/golang/glog"
 	"mime/multipart"
 	"net/http"

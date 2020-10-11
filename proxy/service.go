@@ -6,11 +6,11 @@ import (
 	"io/ioutil"
 	"time"
 
-	"bfs/libs/errors"
-	"bfs/libs/meta"
-	"bfs/proxy/bfs"
-	"bfs/proxy/cache"
-	"bfs/proxy/conf"
+	"github.com/AlexanderChiuluvB/bfs/libs/errors"
+	"github.com/AlexanderChiuluvB/bfs/libs/meta"
+	"github.com/AlexanderChiuluvB/bfs/proxy/bfs"
+	"github.com/AlexanderChiuluvB/bfs/proxy/cache"
+	"github.com/AlexanderChiuluvB/bfs/proxy/conf"
 
 	log "github.com/golang/glog"
 	"golang.org/x/time/rate"

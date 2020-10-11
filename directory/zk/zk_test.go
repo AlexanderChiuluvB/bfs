@@ -1,7 +1,7 @@
 package zk
 
 import (
-	"bfs/libs/meta"
+	"github.com/AlexanderChiuluvB/bfs/libs/meta"
 	"encoding/json"
 	"fmt"
 	"testing"

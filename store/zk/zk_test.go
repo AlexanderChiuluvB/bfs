@@ -1,7 +1,7 @@
 package zk
 
 import (
-	"bfs/store/conf"
+	"github.com/AlexanderChiuluvB/bfs/store/conf"
 	"fmt"
 	"testing"
 	"time"

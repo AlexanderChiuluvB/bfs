@@ -9,14 +9,15 @@ import (
 	"bytes"
 	"context"
 	"errors"
+	"github.com/AlexanderChiuluvB/bfs/libs/gohbase/conf"
 	"io"
 	"os"
 	"os/exec"
 	"path"
 	"strings"
 
-	"bfs/libs/gohbase"
-	"bfs/libs/gohbase/hrpc"
+	"github.com/AlexanderChiuluvB/bfs/libs/gohbase"
+	"github.com/AlexanderChiuluvB/bfs/libs/gohbase/hrpc"
 )
 
 // This error is returned when the HBASE_HOME environment variable is unset
@@ -77,7 +78,7 @@ func CreateTable(host, table string, cFamilies []string) error {
 // and disables and drops the given table
 func DeleteTable(host, table string) error {
 	// TODO: We leak this client.
-	ac := gohbase.NewAdminClient(host)
+	ac := gohbase.NewAdminClient(&conf.Conf{ZkRoot: host})
 	dit := hrpc.NewDisableTable(context.Background(), []byte(table))
 	_, err := ac.DisableTable(dit)
 	if err != nil {

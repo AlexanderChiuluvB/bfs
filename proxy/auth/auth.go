@@ -1,9 +1,9 @@
 package auth
 
 import (
-	"bfs/libs/errors"
-	ibucket "bfs/proxy/bucket"
-	"bfs/proxy/conf"
+	"github.com/AlexanderChiuluvB/bfs/libs/errors"
+	ibucket "github.com/AlexanderChiuluvB/bfs/proxy/bucket"
+	"github.com/AlexanderChiuluvB/bfs/proxy/conf"
 	"crypto/hmac"
 	"crypto/sha1"
 	"encoding/base64"

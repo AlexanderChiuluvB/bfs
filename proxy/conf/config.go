@@ -1,8 +1,8 @@
 package conf
 
 import (
-	"bfs/libs/memcache"
-	"bfs/libs/time"
+	"github.com/AlexanderChiuluvB/bfs/libs/memcache"
+	"github.com/AlexanderChiuluvB/bfs/libs/time"
 	"path"
 	"strings"
 

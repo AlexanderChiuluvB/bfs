@@ -1,10 +1,10 @@
 package block
 
 import (
-	"bfs/libs/errors"
-	"bfs/store/conf"
-	"bfs/store/needle"
-	myos "bfs/store/os"
+	"github.com/AlexanderChiuluvB/bfs/libs/errors"
+	"github.com/AlexanderChiuluvB/bfs/store/conf"
+	"github.com/AlexanderChiuluvB/bfs/store/needle"
+	myos "github.com/AlexanderChiuluvB/bfs/store/os"
 	"bufio"
 	"bytes"
 	log "github.com/golang/glog"

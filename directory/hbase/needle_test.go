@@ -1,7 +1,7 @@
 package hbase
 
 import (
-	"bfs/libs/meta"
+	"github.com/AlexanderChiuluvB/bfs/libs/meta"
 	"testing"
 	"time"
 )

@@ -16,12 +16,12 @@ import (
 	"sync"
 	"time"
 
-	"bfs/libs/gohbase/conf"
-	"bfs/libs/gohbase/hrpc"
-	"bfs/libs/gohbase/pb"
-	"bfs/libs/gohbase/region"
-	"bfs/libs/gohbase/regioninfo"
-	"bfs/libs/gohbase/zk"
+	"github.com/AlexanderChiuluvB/bfs/libs/gohbase/conf"
+	"github.com/AlexanderChiuluvB/bfs/libs/gohbase/hrpc"
+	"github.com/AlexanderChiuluvB/bfs/libs/gohbase/pb"
+	"github.com/AlexanderChiuluvB/bfs/libs/gohbase/region"
+	"github.com/AlexanderChiuluvB/bfs/libs/gohbase/regioninfo"
+	"github.com/AlexanderChiuluvB/bfs/libs/gohbase/zk"
 
 	"github.com/cznic/b"
 	log "github.com/golang/glog"

@@ -1,9 +1,9 @@
 package main
 
 import (
-	"bfs/store/needle"
-	"bfs/store/volume"
-	"bfs/store/zk"
+	"github.com/AlexanderChiuluvB/bfs/store/needle"
+	"github.com/AlexanderChiuluvB/bfs/store/volume"
+	"github.com/AlexanderChiuluvB/bfs/store/zk"
 	"bytes"
 	"os"
 	"testing"

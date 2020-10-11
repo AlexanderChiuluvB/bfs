@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"sync"
 
-	"bfs/libs/gohbase/pb"
+	"github.com/AlexanderChiuluvB/bfs/libs/gohbase/pb"
 	"bytes"
 	"time"
 

@@ -1,12 +1,12 @@
 package bfs
 
 import (
-	"bfs/libs/errors"
-	"bfs/libs/meta"
-	"bfs/proxy/conf"
 	"bytes"
 	"encoding/json"
 	"fmt"
+	"github.com/AlexanderChiuluvB/bfs/libs/errors"
+	"github.com/AlexanderChiuluvB/bfs/libs/meta"
+	"github.com/AlexanderChiuluvB/bfs/proxy/conf"
 	"io"
 	"io/ioutil"
 	"math/rand"

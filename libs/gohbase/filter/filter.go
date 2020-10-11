@@ -8,7 +8,7 @@ package filter
 import (
 	"errors"
 
-	"bfs/libs/gohbase/pb"
+	"github.com/AlexanderChiuluvB/bfs/libs/gohbase/pb"
 
 	"github.com/golang/protobuf/proto"
 )

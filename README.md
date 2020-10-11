@@ -32,19 +32,19 @@ bfs
 
 ### 三、安装gosnowflake
 
- * 参考[这里](https://github.com/Terry-Mao/gosnowflake)
+ * 参考[这里](https://github.com/AlexanderChiuluvB/gosnowflake)
 
 ### 四、部署
 1.下载bfs及依赖包
 ```sh
-$ go get -u github.com/Terry-Mao/bfs
-$ cd /data/apps/go/src/github.com/Terry-Mao/bfs
+$ go get -u github.com/AlexanderChiuluvB/bfs
+$ cd /data/apps/go/src/github.com/AlexanderChiuluvB/bfs
 $ go get ./...
 ```
 
 2.安装directory、store、pitchfork、proxy模块(配置文件请依据实际机器环境配置)
 ```sh
-$ cd $GOPATH/src/github.com/Terry-Mao/bfs/directory
+$ cd $GOPATH/src/github.com/AlexanderChiuluvB/bfs/directory
 $ go install
 $ cp directory.toml $GOPATH/bin/directory.toml
 $ cd ../store/
@@ -67,13 +67,13 @@ $ nohup $GOPATH/bin/directory -c $GOPATH/bin/directory.toml &
 $ nohup $GOPATH/bin/store -c $GOPATH/bin/store.toml &
 $ nohup $GOPATH/bin/pitchfork -c $GOPATH/bin/pitchfork.toml &
 $ nohup $GOPATH/bin/proxy -c $GOPATH/bin/proxy.toml &
-$ cd $GOPATH/github.com/Terry-Mao/bfs/ops
+$ cd $GOPATH/github.com/AlexanderChiuluvB/bfs/ops
 $ nohup python runserver.py &
 ```
 
 ### 六、测试
- * bfs初始化，分配存储空间，请查看[这里](https://github.com/Terry-Mao/bfs/doc/ops.md)
- * 请求bfs，请查看[这里](https://github.com/Terry-Mao/bfs/doc/proxy.md)
+ * bfs初始化，分配存储空间，请查看[这里](https://github.com/AlexanderChiuluvB/bfs/doc/ops.md)
+ * 请求bfs，请查看[这里](https://github.com/AlexanderChiuluvB/bfs/doc/proxy.md)
 
 ## 集群
 
@@ -100,5 +100,5 @@ $ nohup python runserver.py &
  * ops作为bfs的后台管理界面，负责分配存储、扩容、压缩等维护工作
  
 ## API
-[api文档](https://github.com/Terry-Mao/bfs/blob/master/doc/api.md)
+[api文档](https://github.com/AlexanderChiuluvB/bfs/blob/master/doc/api.md)
 ## 更多

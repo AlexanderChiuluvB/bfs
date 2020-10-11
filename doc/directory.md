@@ -115,11 +115,11 @@ Dispatcher schedule client requests, and guarantee load balancing
 
 ## Installation
 
-just pull `Terry-Mao/bfs` from github using `go get`:
+just pull `AlexanderChiuluvB/bfs` from github using `go get`:
 
 ```sh
-$ go get github.com/Terry-Mao/bfs
-$ cd $GOPATH/github.com/Terry-Mao/bfs
+$ go get github.com/AlexanderChiuluvB/bfs
+$ cd $GOPATH/github.com/AlexanderChiuluvB/bfs
 $ go build
 ```
 

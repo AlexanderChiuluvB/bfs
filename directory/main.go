@@ -1,7 +1,7 @@
 package main
 
 import (
-	"bfs/directory/conf"
+	"github.com/AlexanderChiuluvB/bfs/directory/conf"
 	"flag"
 	"runtime"
 

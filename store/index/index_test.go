@@ -1,9 +1,9 @@
 package index
 
 import (
-	"bfs/libs/errors"
-	"bfs/store/conf"
-	"bfs/store/needle"
+	"github.com/AlexanderChiuluvB/bfs/libs/errors"
+	"github.com/AlexanderChiuluvB/bfs/store/conf"
+	"github.com/AlexanderChiuluvB/bfs/store/needle"
 	"os"
 	"testing"
 	"time"

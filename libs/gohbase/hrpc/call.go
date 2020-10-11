@@ -11,9 +11,9 @@ import (
 	"sync"
 	"unsafe"
 
-	"bfs/libs/gohbase/filter"
-	"bfs/libs/gohbase/pb"
-	"bfs/libs/gohbase/regioninfo"
+	"github.com/AlexanderChiuluvB/bfs/libs/gohbase/filter"
+	"github.com/AlexanderChiuluvB/bfs/libs/gohbase/pb"
+	"github.com/AlexanderChiuluvB/bfs/libs/gohbase/regioninfo"
 
 	"github.com/golang/protobuf/proto"
 )

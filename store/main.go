@@ -1,7 +1,7 @@
 package main
 
 import (
-	"bfs/store/conf"
+	"github.com/AlexanderChiuluvB/bfs/store/conf"
 	"flag"
 	log "github.com/golang/glog"
 )

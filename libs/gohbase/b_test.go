@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"bfs/libs/gohbase"
-	"bfs/libs/gohbase/conf"
-	"bfs/libs/gohbase/filter"
-	"bfs/libs/gohbase/hrpc"
+	"github.com/AlexanderChiuluvB/bfs/libs/gohbase"
+	"github.com/AlexanderChiuluvB/bfs/libs/gohbase/conf"
+	"github.com/AlexanderChiuluvB/bfs/libs/gohbase/filter"
+	"github.com/AlexanderChiuluvB/bfs/libs/gohbase/hrpc"
 
 	log "github.com/golang/glog"
 )

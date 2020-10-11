@@ -96,11 +96,11 @@ store has many volumes, volume has a unique id in one store server. one volume h
 * bfs/store development files are required.
 * golang 1.5.1
 
-just pull `Terry-Mao/bfs` from github using `go get`:
+just pull `AlexanderChiuluvB/bfs` from github using `go get`:
 
 ```sh
-$ go get github.com/Terry-Mao/bfs
-$ cd $GOPATH/github.com/Terry-Mao/store
+$ go get github.com/AlexanderChiuluvB/bfs
+$ cd $GOPATH/github.com/AlexanderChiuluvB/store
 $ go build
 ```
 
@@ -207,7 +207,7 @@ $> cat /tmp/store.idx
 
 ```sh
 # test
-$ cd $GOPATH/github.com/Terry-Mao/bfs/store
+$ cd $GOPATH/github.com/AlexanderChiuluvB/bfs/store
 $ go test -v
 # benchmark
 go test -v -bench=. -benchtime=10s
@@ -362,7 +362,7 @@ response a json:
 | 65534 | param error |
 | 65535   | internal error |
 
-for more error code, see the [errors.go](https://github.com/Terry-Mao/bfs/blob/master/store/errors.go)
+for more error code, see the [errors.go](https://github.com/AlexanderChiuluvB/bfs/blob/master/store/errors.go)
 
 exmaples:
 
@@ -466,7 +466,7 @@ response a json:
 | 65534 | param error |
 | 65535   | internal error |
 
-for more error code, see the [errors.go](https://github.com/Terry-Mao/bfs/blob/master/store/errors.go)
+for more error code, see the [errors.go](https://github.com/AlexanderChiuluvB/bfs/blob/master/store/errors.go)
 
 exmaples:
 

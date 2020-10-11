@@ -1,7 +1,7 @@
 package conf
 
 import (
-	"bfs/store/needle"
+	"github.com/AlexanderChiuluvB/bfs/store/needle"
 	"github.com/BurntSushi/toml"
 	"io/ioutil"
 	"os"

@@ -1,8 +1,8 @@
 package block
 
 import (
-	"bfs/store/conf"
-	"bfs/store/needle"
+	"github.com/AlexanderChiuluvB/bfs/store/conf"
+	"github.com/AlexanderChiuluvB/bfs/store/needle"
 	"bytes"
 	"fmt"
 	"os"

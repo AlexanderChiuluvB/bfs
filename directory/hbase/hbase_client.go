@@ -4,12 +4,12 @@ import (
 	"strings"
 	"time"
 
-	"bfs/directory/conf"
-	"bfs/libs/errors"
-	"bfs/libs/gohbase"
-	hconf "bfs/libs/gohbase/conf"
-	"bfs/libs/gohbase/hbase"
-	"bfs/libs/meta"
+	"github.com/AlexanderChiuluvB/bfs/directory/conf"
+	"github.com/AlexanderChiuluvB/bfs/libs/errors"
+	"github.com/AlexanderChiuluvB/bfs/libs/gohbase"
+	hconf "github.com/AlexanderChiuluvB/bfs/libs/gohbase/conf"
+	"github.com/AlexanderChiuluvB/bfs/libs/gohbase/hbase"
+	"github.com/AlexanderChiuluvB/bfs/libs/meta"
 
 	log "github.com/golang/glog"
 )

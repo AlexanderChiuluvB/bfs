@@ -1,12 +1,12 @@
 package main
 
 import (
-	"bfs/directory/conf"
-	"bfs/directory/hbase"
-	"bfs/directory/snowflake"
-	myzk "bfs/directory/zk"
-	"bfs/libs/errors"
-	"bfs/libs/meta"
+	"github.com/AlexanderChiuluvB/bfs/directory/conf"
+	"github.com/AlexanderChiuluvB/bfs/directory/hbase"
+	"github.com/AlexanderChiuluvB/bfs/directory/snowflake"
+	myzk "github.com/AlexanderChiuluvB/bfs/directory/zk"
+	"github.com/AlexanderChiuluvB/bfs/libs/errors"
+	"github.com/AlexanderChiuluvB/bfs/libs/meta"
 	"encoding/json"
 	"strconv"
 	"time"

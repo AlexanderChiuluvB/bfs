@@ -1,8 +1,8 @@
 package main
 
 import (
-	"bfs/libs/errors"
-	"bfs/store/volume"
+	"github.com/AlexanderChiuluvB/bfs/libs/errors"
+	"github.com/AlexanderChiuluvB/bfs/store/volume"
 	log "github.com/golang/glog"
 	"net/http"
 	"strconv"

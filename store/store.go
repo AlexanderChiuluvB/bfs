@@ -1,12 +1,12 @@
 package main
 
 import (
-	"bfs/libs/errors"
-	"bfs/libs/meta"
-	"bfs/store/conf"
-	myos "bfs/store/os"
-	"bfs/store/volume"
-	myzk "bfs/store/zk"
+	"github.com/AlexanderChiuluvB/bfs/libs/errors"
+	"github.com/AlexanderChiuluvB/bfs/libs/meta"
+	"github.com/AlexanderChiuluvB/bfs/store/conf"
+	myos "github.com/AlexanderChiuluvB/bfs/store/os"
+	"github.com/AlexanderChiuluvB/bfs/store/volume"
+	myzk "github.com/AlexanderChiuluvB/bfs/store/zk"
 	"fmt"
 	log "github.com/golang/glog"
 	"io/ioutil"
